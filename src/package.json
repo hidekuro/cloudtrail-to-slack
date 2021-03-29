@@ -1,8 +1,24 @@
 {
   "name": "cloudtrail-to-slack",
-  "version": "1.0.0",
-  "main": "index.js",
   "description": "Lambda function which notify cloudtrail event logs to slack.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hidekuro/cloudtrail-to-slack.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "cloudtrail",
+    "slack"
+  ],
+  "author": "hidekuro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hidekuro/cloudtrail-to-slack/issues"
+  },
+  "homepage": "https://github.com/hidekuro/cloudtrail-to-slack#readme",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
